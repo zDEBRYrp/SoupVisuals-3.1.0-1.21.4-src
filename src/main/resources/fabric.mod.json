@@ -1,0 +1,37 @@
+{
+  "accessWidener": "soupapi.accesswidener",
+  "schemaVersion": 1,
+  "id": "soupvisuals",
+  "version": "3.1.0",
+  "name": "Soup Visuals",
+  "description": "Enjoy the game with Soup Visuals",
+  "icon": "assets/soupapi/soup.png",
+  "authors": [
+    "Padej_",
+    "Winvi_"
+  ],
+  "contact": {
+    "website": "none",
+    "repo": "none"
+  },
+  "license": "SOUP-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "padej.soup.core.Main"
+    ]
+  },
+  "mixins": [
+    "soupapi.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-resource-loader-v0": "*",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  },
+  "breaks": {
+    "naturalmotionblur": "*",
+    "c2me": "*"
+  }
+}
